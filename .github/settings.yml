@@ -47,6 +47,17 @@ labels:
     color: E74C3C
     description: Indicates that a PR should not merge because it is a work in progress.
 
+  - name: epic
+    color: f9cdb3
+
+  - name: good first issue
+    color: 7057ff
+    description: Denotes an issue ready for a new contributor, according to the "help wanted" guidelines. 
+
+  - name: help wanted
+    color: 008672
+    description: Denotes an issue that needs help from a contributor. Must meet "help wanted" guidelines.
+
   - name: kind/api-change-breaking
     color: E74C3C
     description: Categorizes issue or PR as related to breaking change to an existing API
@@ -70,6 +81,9 @@ labels:
   - name:  kind/dependency
     color: 336699
     description: Categorizes an issue or PR as relevant to 3rd party dependencies that are consumed by this project 
+
+  - name: kind/discussion
+    color: fcbb3a
 
   - name:  kind/documentation 
     color: 336699
@@ -98,20 +112,6 @@ labels:
   - name: kind/security
     color: fafc7b
     description: Categorizes issue or PR as related to security incident or defect
-
-  - name: discussion
-    color: fcbb3a
-
-  - name: epic
-    color: f9cdb3
-
-  - name: good first issue
-    color: 7057ff
-    description: Denotes an issue ready for a new contributor, according to the "help wanted" guidelines. 
-
-  - name: help wanted
-    color: 008672
-    description: Denotes an issue that needs help from a contributor. Must meet "help wanted" guidelines.
 
   - name: priority/awaiting-more-evidence
     color: FDEBD0
