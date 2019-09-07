@@ -137,7 +137,7 @@ labels:
     color: BB8FCE
     description: Indicates an issue is a duplicate of other open issue.
 
-  - name: thank you
+  - name: thank-you
     color: E45E9D
     description: Sometimes all a maintainer needs is a “thank you” 🙌.
 
