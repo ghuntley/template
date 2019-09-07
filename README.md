@@ -1,6 +1,4 @@
-# template
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+# template [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 
 ## Contributors ✨
@@ -17,7 +15,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License
 
-This workshops are made available under the [CC-BY-SA-4.0][license]. If you use this material to conduct your own workshop, please share where it was used and [feedback by creating a new issue on GitHub][share-feedback]. If you see a opportunity to improve the course ware please send in a pull-request.
+Licensed and made available (by default) under the [The Prosperity Public License 2.0.0][license]. This license lets you use and share this software for free, with a trial-length time limit on commercial use. Licenses that grant permission to ignore any non-commerical or copyleft rules are available to [qualifying patrons][buy-a-license].
 
 <!-- in-line links -->
 [license]: LICENSE.md
+[buy-a-license]: https://ghuntley.com/support
