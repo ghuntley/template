@@ -1,4 +1,6 @@
-> 👋 This software is alternatively available under a different license to qualifying patrons that grants permission to ignore any non-commerical or copyleft rules — see https://ghuntley.com/licensing 
+> 👋 This software is alternatively available under a different license 
+> to qualifying patrons that grants permission to ignore any non-commerical
+> or copyleft rules — head on over to https://ghuntley.com/licensing. Thanks.
 
 # The Prosperity Public License 2.0.0
 
