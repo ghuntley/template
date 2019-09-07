@@ -113,6 +113,54 @@ labels:
     color: 008672
     description: Denotes an issue that needs help from a contributor. Must meet "help wanted" guidelines.
 
+  - name: priority/awaiting-more-evidence
+    color: FDEBD0
+    description:  Lowest priority. Possibly useful, but not yet enough support to actually get it done. 
+
+  - name: priority/backlog
+    color: F5B041
+    description: Higher priority than priority/awaiting-more-evidence.
+
+  - name: priority/critical-urgent
+    color: E74C3C
+    description: Highest priority. Must be actively worked on as someone's top priority right now.
+
+  - name: priority/important-longterm
+    color: D35400
+    description: Important over the long term, but may not be staffed and/or may need multiple releases to complete.
+
+  - name: priority/important-soon
+    color: D35400
+    description: Must be staffed and worked on either currently, or very soon, ideally in time for the next release.
+
+  - name: triage/duplicate
+    color: BB8FCE
+    description: Indicates an issue is a duplicate of other open issue.
+
+  - name: triage/most-wanted
+    color: ededed
+    description: Indicates an issue needs more information in order to work on it.
+
+  - name: triage/needs-information
+    color: BB8FCE
+    description: Indicates an issue needs more information in order to work on it.
+
+  - name: triage/not-reproducible
+    color: BB8FCE
+    description:  Indicates an issue can not be reproduced as described. 
+
+  - name: triage/support
+    color: BB8FCE
+    description: Indicates an issue that is a support question.
+
+  - name: triage/unresolved-or-working-as-intended
+    color: BB8FCE
+    description: Indicates an issue that can not or will not be resolved.
+
+  - name: triage/untriaged
+    color: BB8FCE
+    description: Indicates an issue requires triaging or verification.
+
   #- name: first-timers-only
   # include the old name to rename an existing label
   #  oldname: Help Wanted
