@@ -27,17 +27,95 @@ repository:
 
 # Labels: define labels for Issues and Pull Requests
 labels:
-  - name: bug
-    color: CC0000
-    description: An issue with the system 🐛.
-    
-  - name: feature
+  - name: area/automation
+    color: 5DADE2
+    description: Categorizes an issue or PR as relevant to project automation
+
+  - name: area/build
+    color: 5DADE2
+    description: Categorizes an issue or PR as relevant to build infrastructure
+
+  - name: area/community
+    color: 5DADE2
+    description: Categorizes an issue or PR as relevant to community or interactions
+
+  - name: do-not-merge/breaking-change
+    color: E74C3C
+    description: Categorizes issue or PR as related to breaking change to an existing API
+
+  - name: do-not-merge/work-in-progress
+    color: E74C3C
+    description: Indicates that a PR should not merge because it is a work in progress.
+
+  - name: kind/api-change-breaking
+    color: E74C3C
+    description: Categorizes issue or PR as related to breaking change to an existing API
+
+  - name: kind/bug
+    color: d73a4a
+    description: Something isn't working 
+
+  - name: kind/cleanup
     color: 336699
-    description: New functionality.
-    
-  - name: first-timers-only
-    # include the old name to rename an existing label
-    oldname: Help Wanted
+    description: Categorizes issue or PR as related to cleaning up code, process, or technical debt. 
+
+  - name: kind/consumer-experience
+    color: 336699
+    description: Categorizes issue or PR as related to improving the experience of consumers 
+
+  - name: kind/contributor-experience
+    color: 336699
+    description: Categorizes issue or PR as related to improving the experience of contributors 
+
+  - name:  kind/dependency
+    color: 336699
+    description: Categorizes an issue or PR as relevant to 3rd party dependencies that are consumed by this project 
+
+  - name:  kind/documentation 
+    color: 336699
+    description: Categorizes an issue or PR as relevant to 3rd party dependencies that are consumed by this project 
+
+  - name: kind/enhancement
+    color: 28B463
+    description:  New feature or request.
+
+  - name: kind/feedback
+    color: f9f486
+    description: Categorizes issue as related to feedback from people are using the project or are considering adoption 
+
+  - name: kind/maintainer-experience
+    color: D6EAF8
+    description:  Categorizes issue or PR as related to improving the experience of maintainers 
+
+  - name: kind/performance
+    color: F4D03F
+    description: Categorizes issue or PR as related to improving performance (allocations/memory/init/etc)
+
+  - name: kind/regression
+    color: E74C3C
+    description: Something was working, now it isn't
+
+  - name: kind/security
+    color: fafc7b
+    description: Categorizes issue or PR as related to security incident or defect
+
+  - name: discussion
+    color: fcbb3a
+
+  - name: epic
+    color: f9cdb3
+
+  - name: good first issue
+    color: 7057ff
+    description: Denotes an issue ready for a new contributor, according to the "help wanted" guidelines. 
+
+  - name: help wanted
+    color: 008672
+    description: Denotes an issue that needs help from a contributor. Must meet "help wanted" guidelines.
+
+  #- name: first-timers-only
+  # include the old name to rename an existing label
+  #  oldname: Help Wanted
 
 branches:
   - name: master
