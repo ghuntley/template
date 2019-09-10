@@ -1,6 +1,7 @@
-> 👋 This software is alternatively available under a different license 
-> to qualifying patrons that grants permission to ignore any non-commerical
-> or copyleft rules — head on over to https://ghuntley.com/licensing. Thanks.
+> 👋 This software is dual-licensed and alternatively available under a
+> different license to qualifying patrons that grants permission to ignore
+> any non-commerical or copyleft rules — refer to https://ghuntley.com/licensing
+> for more information.
 
 # The Prosperity Public License 2.0.0
 
